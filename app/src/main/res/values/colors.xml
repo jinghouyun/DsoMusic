@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#969696</color>
-    <color name="colorPrimaryDark">#3700B3</color>
-    <color name="colorAccent">#03DAC5</color>
+    <color name="colorPrimary">#0470E6</color>
+    <color name="colorPrimaryDark">#0358B4</color>
+    <color name="colorAccent">#0470E6</color>
 
     <bool name="dso_bool_status_bar_foreground">true</bool>
 
     <!-- 状态栏背景色 -->
-    <color name="colorStatusBar">#FFFFFF</color>
+    <color name="colorStatusBar">#F7F9FA</color>
 
     <!-- 页面背景色-->
-    <color name="colorPageBackground">#FFFFFF</color>
-    <color name="dso_color_page">#F9F9F9</color>
+    <color name="colorPageBackground">#F7F9FA</color>
+    <color name="dso_color_page">#F7F9FA</color>
 
     <color name="colorMenuBackground">#BFFFFFFF</color>
 
@@ -33,7 +33,7 @@
     <color name="colorTransparency">#00000000</color>
 
     <!--    <color name="colorAppThemeColor">#2191FA</color>-->
-    <color name="colorAppThemeColor">#DB2C1F</color>
+    <color name="colorAppThemeColor">#0470E6</color>
     <color name="colorDialogBackground">#FFFFFF</color>
     <color name="colorHintForeground">#C8C8C8</color>
 
@@ -53,7 +53,7 @@
 
     <color name="dso_color_song_unable">#D2D2D2</color>
 
-    <color name="playlistPageBackground">#F7ECEA</color>
+    <color name="playlistPageBackground">#F7F9FA</color>
     <color name="menuMainBackground">#FAFAFA</color>
 
     <color name="lrc_normal_text_color">#6C6C6C</color>
