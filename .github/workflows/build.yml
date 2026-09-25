@@ -8,6 +8,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: 检出代码
         uses: actions/checkout@v4
@@ -36,6 +38,12 @@ jobs:
           find app/build/outputs/apk -name "*.apk"
           cp app/build/outputs/apk/debug/app-debug.apk app.apk
           ls -lh app.apk
+
+      - name: 上传 APK 产物
+        uses: actions/upload-artifact@v4
+        with:
+          name: app-debug
+          path: app.apk
 
       - name: 推送到 apk 分支
         run: |
